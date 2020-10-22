@@ -1,5 +1,6 @@
-window.setTimeout(changeWebsite(), 20000);
+window.setTimeout(changeWebsite, 5000);
 
 function changeWebsite() {
-  location.href = "https://withkoa.com/";
+
+ location.assign("https://withkoa.com")
 }

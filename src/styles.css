@@ -22,13 +22,15 @@ body p {
   font-size: 18px;
   padding-top: 0;
   margin-top: 24px;
+  max-width: 60vw;
+  align-self: center;
 }
 
 body a {
   text-decoration: none;
   border: 1px solid #141a46;
   padding: 16px;
-  width: 200px;
+  max-width: 40vw;
   align-self: center;
   color: #fff;
   background-color: #141a46;
@@ -36,5 +38,5 @@ body a {
 }
 
 .image img {
-  width: 50vw;
+  width: 40vw;
 }
